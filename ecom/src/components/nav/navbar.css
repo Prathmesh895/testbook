@@ -1,0 +1,75 @@
+main{
+    margin: auto;
+   
+}
+/*Navbar content*/
+.Nav-content{
+    display:flex;  
+    list-style: none;
+    text-align: center;
+    position: fixed;
+    top:0;
+    padding-top: 0%;
+    justify-content: space-evenly;
+    background-color: #287FF0;
+    width: 100%;
+    margin-top:auto;
+}
+/*flipkart name and home page link*/
+.tag{
+    font-size: 25px;
+    color: white;
+
+}
+.search-tab{
+    border: 0;
+    outline: 0 none;
+    font-size: 1.0625em;
+    height: 35px;
+    width: 140%;
+    margin-top: 2%;
+    border-radius: 2px;
+    
+}
+.Login{
+    text-decoration: none;
+    background-color:white;
+    height: 30px;
+    width: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Login-1{
+    text-decoration: none;
+    margin-top: 100px;
+    color: #287FF0;
+}
+@media screen and (max-width:600px){
+   
+    .Login, .nav-txt, .dropdown{
+        display: none;
+    }
+
+    .Nav-content{
+        display: flex;
+        justify-content:start;
+        margin:0;
+        font-size: smaller;
+    
+    }
+    .tag{
+        margin: 0;
+        font-size: 14px;
+        position: relative;
+        right: 15px;
+
+    }
+    .tag2{
+        font-size: 11px;
+        position: relative;
+        right: 15px;
+
+        
+    }
+
+}
